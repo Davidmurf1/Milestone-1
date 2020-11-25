@@ -1,67 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
   <title>My portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- css links-->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- JS Links-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
+<!--- Main Nav Bar, centred elements + sticky top-->
 <nav class="navbar navbar-expand-sm bg-light navbar-blue justify-content-center sticky-top">
 
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.html">
     <img src="img/smile.jpg" alt="logo" style="width:40px;" class="rounded-circle">
   </a>
   
-  <!-- Collapse button -->
+   <!-- Collapse button when in -sm-->
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <!-- Links -->
+  <!-- Option commands About, Work Exp, Contact me** -->
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="index.html">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="page1.html">Education & Work Experience 2</a>
+      <a class="nav-link" href="page2.html">Work Experience 2</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="page2.html">Contact Me!</a>
+      <a class="nav-link" href="page3.html">Contact Me!</a>
     </li>
   </ul>
 </nav>
 </div>
 
+<!-- first cotnainer containing card with imaage and content on the right**-->
 <section>
 <div class=container> 
-  <div class="row">
-<div class ="card col-4" style="width:300px;">
-<img class="card-img-top" src="img/smile.jpg" alt="photo">
-<div class=card-body>
-<h3 class="card-title"> David Murphy
-</h3>
-<p class="card-text">This is my online portfolio which I have made for you! </p>
-</div>
-</div>
+    <div class="row">
+    <div class ="card col-4 " style="width:300px;">
+    <img class="card-img-top" src="img/smile.jpg" alt="photo">
+    <div class=card-body>
+    <h3 class="card-title"> David Murphy
+    </h3>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-<!--- Information will be right of card image how to centre???--> 
-<div class="info col-8 "> 
-<h1> About Me!
+    </p>
+    </div>
+    </div>
+
+<!--- Information will float right of card image __ centre content within grid?????-->
+
+<div class="hi col-8"> 
+<h1> About Me
 </h1>
-<p>This is my online portfolio which I have made for you!  </p>
-<p> I hope you enjoy it!  </p>
-
+<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>  </p>
+<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>  </p>
 </div>
 </section>
 
-</container>
+<br class="break"> 
 
+<!--- container 2 containing h2,h3 and p**-->
+
+<div class="container-fluid">
+  <h2> My Interests & Achievements </h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+
+<h3> Where I began in software development </h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+</div>
+
+<!-- footer details containing contact info etcc**-->
+
+<footer>
+    <div class="container">
+    <h4> Contact Details </h4>
+      <a href="https://www.linkedin.com/in/david-murphy-02ab78165/">LinkedIn <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+
+      <a href="Davidmurphy-bfort@hotmail.com">Hotmail <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+
+      <a href="index.html">Back to the top <i class="fa fa-paper-plane-o" aria-hidden="true">/i></a>
+    </div>
+    </footer>
 </body>
 </html>
