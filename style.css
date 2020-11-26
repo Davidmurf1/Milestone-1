@@ -7,6 +7,10 @@
 
 
 
+
+* {
+font-family: 'Roboto', sans-serif;
+}
 .icons 
 {
 height:50px;
@@ -73,13 +77,16 @@ border-radius: 10px;
 background-color:lightgrey;
 color: #1f6f8b;
 }
-
+.footer h4 
+{
+    text-align: center;
+color:black;
+}
 
 body
 {
 background-color: lightgrey;
 }
-
 
 
 
