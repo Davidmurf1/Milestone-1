@@ -5,19 +5,31 @@
 
 
 
+
+
 .icons 
 {
 height:50px;
 width: 50px;
 border-radius: 50px;
 }
+.home-page
+{
+background-color: lightgrey;
+background-image: url(img/light.jpg);
+background-repeat: no-repeat;
+background-size:cover; ;
+background-position:center ;
 
 
+}
 .hypertext
 {
 color:#1f6f8b;
 text-decoration: none;
 }
+
+
 
 .hypertext:hover 
 {
