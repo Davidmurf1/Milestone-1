@@ -4,15 +4,41 @@
 
 
 
+.hypertext
+{
+color: #fafafa;
+}
 
+.border-theme
+{
+border: 1px solid black;
+}
 
+.navbar
+{
+background-color: #fcdada;
+color: #ffffff;
+}
 
+.nav-link
+{
+color: #ffa5a5
+}
+.footer 
+{
+background-color: grey;
+color: #ffffff;
+}
 
+.input-item
+{
+border: solid 1px black;
+}
 
- 
-
-
-
+.input-text
+{
+font-weight: bold;
+}
 
 .timeline-item
 {
@@ -52,5 +78,3 @@ border-radius: 12px;
 content: '';
 background: slategrey;
 }
-
-
